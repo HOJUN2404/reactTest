@@ -39,6 +39,7 @@ class App extends Component {
   componentDidMount() {
     this.getResumeData();
   }
+  // test
 
   render() {
     return (
