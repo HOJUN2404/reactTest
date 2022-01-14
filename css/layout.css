@@ -296,9 +296,9 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #about .divtest {
-   height: 1000px;
-   margin-left: 30%;
-   margin-right: 30%;
+   height: 700px;
+   margin-left: 10%;
+   margin-right: 10%;
 }
 
 #about divTest {
