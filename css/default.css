@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+/* blockquote, q { quotes: &#8220 &#8220; } */
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -638,7 +638,7 @@ input[type="checkbox"] { display: inline; }
 .row .two         { width: 16.66667%; }
 .row .three       { width: 25%; }
 .row .four        { width: 33.33333%; }
-.row .hoho        { width: 40%;  }
+.row .hoho        { width: 40%;}
 .row .five        { width: 41.66667%; }
 .row .six         { width: 50%; }
 .row .seven       { width: 58.33333%; }

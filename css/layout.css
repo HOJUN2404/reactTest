@@ -200,7 +200,42 @@ ul#nav li.current a { color: #fe6928; }
    width: 100%;
 }
 
+#Contents {
+   background-color: white;
+   padding-left: 12%;
+   padding-right: 12%;
+}
 
+#Contents .blank {
+   height: 60px;
+}
+
+#Contents .sizeImage {
+   width: 100%;
+}
+
+#Contents .allImage {
+   /* width: 1px; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#Contents .loggoss {
+   width: 100%;
+   height: 100%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#Contents .cLoggo1 {
+   width: 550px;
+   height: 220px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
