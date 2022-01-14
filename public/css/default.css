@@ -87,7 +87,7 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote, q { quotes: &#8220 &#8220; }
+/* blockquote, q { quotes: &#8220 &#8220; } */
 
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -456,6 +456,31 @@ img.pull-right { margin: 12px 0px 0px 18px; }
 img.pull-left { margin: 12px 18px 0px 0px; }
 
 /*  6. Buttons  --------------------------------------------------------- */
+.button1{
+   font: 16px/30px 'opensans-bold', sans-serif;
+   background: rgb(255, 194, 28);
+   display: inline-block;
+	text-decoration: none;
+   letter-spacing: 0;
+   color: #fff;
+	padding: 12px 20px;
+	margin-bottom: 18px;
+   border: none;
+   cursor: pointer;
+   height: auto;
+
+   -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+
+   -moz-border-radius: 0px;
+   -webkit-border-radius: 0px;
+   -khtml-border-radius: 0px;
+   border-radius: 0px;
+}
+
 
 .button,
 .button:visited,
@@ -638,7 +663,7 @@ input[type="checkbox"] { display: inline; }
 .row .two         { width: 16.66667%; }
 .row .three       { width: 25%; }
 .row .four        { width: 33.33333%; }
-.row .hoho        { width: 40%;  }
+.row .hoho        { width: 40%;}
 .row .five        { width: 41.66667%; }
 .row .six         { width: 50%; }
 .row .seven       { width: 58.33333%; }

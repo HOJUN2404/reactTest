@@ -31,6 +31,12 @@ class Header extends Component {
             </li>
 
             <li>
+              <a className="smoothscroll" href="#Test">
+                INFO
+              </a>
+            </li>
+
+            <li>
               <a className="smoothscroll" href="#about">
                 About
               </a>
@@ -63,8 +69,14 @@ class Header extends Component {
               {/* <h1 className="responsive-headline">{name}</h1> */}
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>라이브 방송 쇼호스트 <br></br> 이렇게 시작하세요 !</h3>
+              <h3>라이브 방송 쇼호스트 <br></br> 이렇게 시작하세요 !<br></br><br></br></h3>
               {/* <h3>{description}.</h3> */}
+                  <p>
+                    <a href="https://open.kakao.com/o/s9mSFuQd" className="button1">
+                    {/* https://open.kakao.com/o/s9mSFuQd */}
+                      <i className="fa fa-download"></i>   KaKao Talk
+                    </a>
+                  </p>
             </Fade>
             <hr />
             {/* <Fade bottom duration={2000}>

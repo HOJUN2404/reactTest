@@ -16,6 +16,7 @@ class Contact extends Component {
     const loggo1 = "images/" + this.props.data.loggo1;
     const loggo11 = "images/" + this.props.data.loggo11;
     const loggo2 = "images/" + this.props.data.loggo2;
+    const loggo22 = "images/" + this.props.data.loggo22;
     const loggo3 = "images/" + this.props.data.loggo3;
     const loggo4 = "images/" + this.props.data.loggo4;
     const loggo5 = "images/" + this.props.data.loggo5;
@@ -39,11 +40,15 @@ class Contact extends Component {
         <div className="row">
           <Slide left duration={1000}>
             <div className="seven columns">
-              
+              <div className="cLoggo1">
                 <img
-                  scr = {loggo11}
+                  className="sizeImage"
+                  src = {loggo22}
+                  alt="실패"
                 />
-              
+              </div>
+              </div>
+          </Slide>              
               {/* <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
@@ -107,19 +112,13 @@ class Contact extends Component {
                 </fieldset>
               </form> */}
 
-              <div id="message-warning"> Error boy</div>
-              <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
-                <br />
-              </div>
-            </div>
-          </Slide>
+
 
           <Slide right duration={1000}>
             <aside className="five columns footer-widgets">
               <div className="widget widget_contact">
                 <h3>엔에프팅 주식회사 NFTing Inc.</h3>
-                <h4>Address and Phone</h4>
+                <h4>Address and Info</h4>
                 <p className="address">
                   <span>대표이사 : 전병욱</span><br/>
                   <span>주소 : 경기도 부천시 소향로 131, 7층</span><br/>

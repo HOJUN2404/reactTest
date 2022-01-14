@@ -1,10 +1,22 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import YouTube from 'react-youtube';
 
 class About extends Component {
   render() {
-    if (!this.props.data) return null;
 
+    if (!this.props.data) return null;
+        // 유튜브 부분
+        const opts = {
+          height: '390',
+          width: '640',
+          playerVars: {
+            // https://developers.google.com/youtube/player_parameters
+            autoplay: 1,
+          },
+        };
+        
+    
     const name = this.props.data.name;
     const profilepic = "images/" + this.props.data.image;
     const bio = this.props.data.bio;
@@ -18,7 +30,13 @@ class About extends Component {
 
     return (
       <section id="about">
-        <Fade duration={1000}>
+        <div>
+          <h3>라이브트리 방송예고</h3>
+        </div>
+          <div className="divtest">
+            <iframe src="https://view.shoppinglive.naver.com/replays/361129" />
+            {/* <YouTube videoId="IlyF79osFPAu8vs_" opts={opts} onReady={this._onReady} />; */}
+          </div>
           <div className="row">
             <div className="three columns">
               <img
@@ -50,7 +68,8 @@ class About extends Component {
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button">
+                    <a href="https://open.kakao.com/o/s9mSFuQd" className="button">
+                    {/* https://open.kakao.com/o/s9mSFuQd */}
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
@@ -58,7 +77,6 @@ class About extends Component {
               </div>
             </div>
           </div>
-        </Fade>
       </section>
     );
   }

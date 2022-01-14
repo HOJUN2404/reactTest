@@ -60,6 +60,33 @@ class Resume extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
+                <span>Monday</span>
+              </h1>
+            </div>
+
+            <div className="nine columns main-col">
+              <div className="row item">
+                <div className="twelve columns">
+                  <div>
+                    <h3>아키클래식</h3>
+                    <p className="info">
+                      {education.degree} <span>&bull;</span>
+                      <em className="date">2022. 01. 15</em>
+                    </p>
+                    <p>아키클래식의 의류 방송이 진행됩니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Slide>
+
+
+
+        <Slide left duration={1300}>
+          <div className="row education">
+            <div className="three columns header-col">
+              <h1>
                 <span>Education</span>
               </h1>
             </div>
