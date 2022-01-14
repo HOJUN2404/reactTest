@@ -176,6 +176,31 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #fe6928; }
 
+/* ------------------------------------------------------------------ */
+/* c-0. Test Section [김호준]
+/* ------------------------------------------------------------------ */
+#Test {
+   background-color: white;
+   padding-left: 12%;
+   padding-right: 12%;
+}
+
+#Test .blank {
+   height: 60px;
+}
+
+#Test .allImage {
+   /* width: 1px; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#Test .sizeImage {
+   width: 100%;
+}
+
+
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
@@ -816,6 +841,12 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
+}
+
+#contact h3 {
+   font: 24px/36px 'opensans-bold', sans-serif;
+   color:white;
+   margin-bottom: 6px;
 }
 
 #contact h4 {

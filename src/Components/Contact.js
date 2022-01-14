@@ -13,9 +13,16 @@ class Contact extends Component {
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
+    const loggo1 = "images/" + this.props.data.loggo1;
+    const loggo11 = "images/" + this.props.data.loggo11;
+    const loggo2 = "images/" + this.props.data.loggo2;
+    const loggo3 = "images/" + this.props.data.loggo3;
+    const loggo4 = "images/" + this.props.data.loggo4;
+    const loggo5 = "images/" + this.props.data.loggo5;
+
     return (
       <section id="contact">
-        <Fade bottom duration={1000}>
+        {/* <Fade bottom duration={1000}>
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
@@ -27,12 +34,17 @@ class Contact extends Component {
               <p className="lead">{message}</p>
             </div>
           </div>
-        </Fade>
+        </Fade> */}
 
         <div className="row">
           <Slide left duration={1000}>
-            <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+            <div className="seven columns">
+              
+                <img
+                  scr = {loggo11}
+                />
+              
+              {/* <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
@@ -93,7 +105,7 @@ class Contact extends Component {
                     </span>
                   </div>
                 </fieldset>
-              </form>
+              </form> */}
 
               <div id="message-warning"> Error boy</div>
               <div id="message-success">
@@ -104,20 +116,28 @@ class Contact extends Component {
           </Slide>
 
           <Slide right duration={1000}>
-            <aside className="four columns footer-widgets">
+            <aside className="five columns footer-widgets">
               <div className="widget widget_contact">
+                <h3>엔에프팅 주식회사 NFTing Inc.</h3>
                 <h4>Address and Phone</h4>
                 <p className="address">
-                  {name}
-                  <br />
-                  {street} <br />
-                  {city}, {state} {zip}
-                  <br />
-                  <span>{phone}</span>
+                  <span>대표이사 : 전병욱</span><br/>
+                  <span>주소 : 경기도 부천시 소향로 131, 7층</span><br/>
+                  <span>통신판매업신고 : 2021 경기부천 1948</span><br/>
+                  <span>EMAIL : admin@nfting.co.kr</span><br/>
+                  <span>사업자 번호 : 698 86 02279</span><br/>
                 </p>
               </div>
 
-              <div className="widget widget_tweets">
+              {/* 
+                  대표이사 : 전병욱  
+                  주소 : 경기도 부천시 소향로 131, 7층  | 통신판매업신고 : 2021 경기부천 1948
+                  E mail : admin@nfting.co.kr  | 사업자 번호 : 698 86 02279
+                  Copyright  2021 NFTing, lnc. All rights reserved 
+              */}
+
+
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,7 +164,7 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>
