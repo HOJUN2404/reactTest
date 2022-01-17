@@ -397,18 +397,18 @@ ul#nav li.current a { color: #fe6928; }
 #resume div h1 p {
    font: 36px/36px 'opensans-bold', sans-serif;
    margin-bottom: 30px;
-   width: 600px;
+   
    text-align: center;
-   display: flex;
-   justify-content: center;
+   /* display: flex;
+   justify-content: center; */
 
    /* border-bottom: 3px solid #0762f9; */
    /* border-top: 3px solid #0762f9; */
 }
 
 #resume div h1 .h1center{
-   display: flex;
-   justify-content: center;
+   /* display: flex;
+   justify-content: center; */
 }
 
 #resume h1 span {
