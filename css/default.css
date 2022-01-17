@@ -288,7 +288,7 @@ hr { border: solid #E3E3E3; border-width: 1px 0 0; clear: both; margin: 11px 0 3
 a, a:visited {
    text-decoration: none;
    outline: 0;
-   color: #11ABB0;
+   color: #440c0c;
 
    -webkit-transition: color .3s ease-in-out;
    -moz-transition: color .3s ease-in-out;
@@ -465,7 +465,7 @@ img.pull-left { margin: 12px 18px 0px 0px; }
    color: #fff;
 	padding: 12px 20px;
 	margin-bottom: 18px;
-   border: none;
+   /* border: none; */
    cursor: pointer;
    height: auto;
 
@@ -478,7 +478,7 @@ img.pull-left { margin: 12px 18px 0px 0px; }
    -moz-border-radius: 0px;
    -webkit-border-radius: 0px;
    -khtml-border-radius: 0px;
-   border-radius: 0px;
+   border-radius: 20px;
 }
 
 
@@ -489,7 +489,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
    font: 16px/30px 'opensans-bold', sans-serif;
-   background: #11ABB0;
+   background: #573a05;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;

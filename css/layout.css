@@ -200,9 +200,29 @@ ul#nav li.current a { color: #fe6928; }
    width: 100%;
 }
 
+#contact .parent {
+   display: flex;
+   display: inline;
+}
+
+#contact .child {
+   flex: 1;
+   display: inline;
+}
+
+#contact .flowleft50 {
+   float: left;
+}
+
 #Contact .sizeImage {
-   width: 100%;
+   width: 50%;
    height: 100%;
+}
+
+#contact img {
+   margin-top: 5%;
+   width: 80%;
+   margin-right: 0px;
 }
 
 #Contact .cLoggo1 {
@@ -210,9 +230,11 @@ ul#nav li.current a { color: #fe6928; }
    height: 100%;
 
    margin-top: 200px;
-   margin-left: auto;
-   margin-right: auto;
+
+   display: flex;
+   justify-content: center;
 }
+
 
 #Contents {
    background-color: white;
