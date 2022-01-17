@@ -210,8 +210,14 @@ ul#nav li.current a { color: #fe6928; }
    display: inline;
 }
 
+#contact .flowleft501 {
+   float: left;
+   height: 200px;
+}
+
 #contact .flowleft50 {
    float: left;
+
 }
 
 #Contact .sizeImage {
@@ -222,7 +228,9 @@ ul#nav li.current a { color: #fe6928; }
 #contact img {
    margin-top: 5%;
    width: 80%;
-   margin-right: 0px;
+   display: block;
+   margin: auto;
+   
 }
 
 #Contact .cLoggo1 {
