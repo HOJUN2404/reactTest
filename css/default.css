@@ -157,7 +157,7 @@ body {
        Vertical rhythm with leading derived from 6
 --------------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h4 span{
    color: #313131;
 	font-family: 'opensans-bold', sans-serif;
    font-weight: normal;
