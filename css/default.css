@@ -631,10 +631,14 @@ input[type="checkbox"] { display: inline; }
 
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
+.ie .row2 { width: 1000px ; }
 
 .narrow .row { max-width: 980px; }
+.narrow .row2 { max-width: 980px; }
 
 .row .row { width: auto; max-width: none; margin: 0 -20px; }
+.row .row2 { width: auto; max-width: none; margin: 0 -20px; }
+.row2 .row2 { width: auto; max-width: none; margin: 0 -20px; }
 
 /* row clearing */
 .row:before,
@@ -643,6 +647,15 @@ input[type="checkbox"] { display: inline; }
     display: table;
 }
 .row:after {
+    clear: both;
+}
+
+.row2:before,
+.row2:after {
+    content: " ";
+    display: table;
+}
+.row2:after {
     clear: both;
 }
 
@@ -668,7 +681,7 @@ input[type="checkbox"] { display: inline; }
 /* column widths */
 .row .one         { width: 8.33333%; }
 .row .two         { width: 16.66667%; }
-.row .three       { width: 25%; }
+.row .three       { width: 20%; }
 .row2 .three       { width: 20%; }
 .row .four        { width: 33.33333%; }
 .row .hoho        { width: 40%;}
@@ -797,6 +810,7 @@ properly.
 @media only screen and (max-width: 460px) {
 
    .row { width: auto; }
+   .row2 { width: auto; }
 
 }
 
@@ -805,6 +819,7 @@ properly.
 @media screen and (min-width: 1200px) {
 
    .wide .row { max-width: 1180px; }
+   .wide .row2 { max-width: 1180px; }
 
 }
 
