@@ -212,7 +212,8 @@ ul#nav li.current a { color: #fe6928; }
 
 #contact .flowleft501 {
    float: left;
-   height: 200px;
+   height: 288px;
+
 }
 
 #contact .flowleft50 {
@@ -230,7 +231,7 @@ ul#nav li.current a { color: #fe6928; }
    width: 80%;
    display: block;
    margin: auto;
-   
+   vertical-align: middle;
 }
 
 #Contact .cLoggo1 {
@@ -400,7 +401,6 @@ ul#nav li.current a { color: #fe6928; }
    background: #fff;
    padding-top: 90px;
    padding-bottom: 42px;
-   overflow: hidden;
 }
 
 #resume a, #resume a:visited  { color: #0762f9; }
