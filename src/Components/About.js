@@ -37,7 +37,9 @@ class About extends Component {
             <iframe src="https://view.shoppinglive.naver.com/replays/361129" />
             {/* <YouTube videoId="IlyF79osFPAu8vs_" opts={opts} onReady={this._onReady} />; */}
           </div>
-          <div className="row">
+
+
+          {/* <div className="row">
             <div className="three columns">
               <img
                 className="profile-pic"
@@ -69,14 +71,14 @@ class About extends Component {
                 <div className="columns download">
                   <p>
                     <a href="https://open.kakao.com/o/s9mSFuQd" className="button">
-                    {/* https://open.kakao.com/o/s9mSFuQd */}
+                     https://open.kakao.com/o/s9mSFuQd 
                       <i className="fa fa-download"></i>Download Resume
                     </a>
                   </p>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
       </section>
     );
   }

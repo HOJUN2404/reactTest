@@ -200,6 +200,51 @@ ul#nav li.current a { color: #fe6928; }
    width: 100%;
 }
 
+#contact .parent {
+   display: flex;
+   display: inline;
+}
+
+#contact .child {
+   flex: 1;
+   display: inline;
+}
+
+#contact .flowleft501 {
+   float: left;
+   height: 288px;
+
+}
+
+#contact .flowleft50 {
+   float: left;
+
+}
+
+#Contact .sizeImage {
+   width: 50%;
+   height: 100%;
+}
+
+#contact img {
+   margin-top: 5%;
+   width: 80%;
+   display: block;
+   margin: auto;
+   vertical-align: middle;
+}
+
+#Contact .cLoggo1 {
+   width: 500px;
+   height: 100%;
+
+   margin-top: 200px;
+
+   display: flex;
+   justify-content: center;
+}
+
+
 #Contents {
    background-color: white;
    padding-left: 12%;
@@ -296,9 +341,9 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 #about .divtest {
-   height: 1000px;
-   margin-left: 30%;
-   margin-right: 30%;
+   height: 700px;
+   margin-left: 10%;
+   margin-right: 10%;
 }
 
 #about divTest {
@@ -355,8 +400,7 @@ ul#nav li.current a { color: #fe6928; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
-   overflow: hidden;
+   padding-bottom: 42px;
 }
 
 #resume a, #resume a:visited  { color: #0762f9; }
@@ -366,13 +410,65 @@ ul#nav li.current a { color: #fe6928; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
 }
+
+#resume div .boxdetail {
+   border: 2.3px solid black;
+   border-color: black;
+   background-color: #000524;
+   border-radius: 15px;
+   margin-top: 20px;
+   margin-bottom: 5px;
+}
+
+#resume div h1 p {
+   font: 36px/36px 'opensans-bold', sans-serif;
+   margin-bottom: 30px;
+   
+   text-align: center;
+   /* display: flex;
+   justify-content: center; */
+
+   /* border-bottom: 3px solid #0762f9; */
+   /* border-top: 3px solid #0762f9; */
+}
+
+#resume div h1 .h1center{
+   /* display: flex;
+   justify-content: center; */
+}
+
 #resume h1 span {
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
+   text-align: center;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#resume h4 {
+   margin-top: 5px;
+   color: white;
+   font-style: white;
+}
+
+#resume h4 {
+   text-align: center;
+   margin-bottom: 0px;
+}
+
+#resume h6 {
+   text-align: center;
+   color: white;
+   font-style: white;
+}
+
+#resume p {
+   margin-bottom: 5px;
 }
 
 #resume .header-col { padding-top: 9px; }
@@ -395,7 +491,13 @@ ul#nav li.current a { color: #fe6928; }
 }
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
-   margin-top: 6px;
+   margin-top: 0px;
+   text-align: center;
+}
+
+#resume em .date {
+   text-align: center;
+   
 }
 
 /*----------------------------------------------*/

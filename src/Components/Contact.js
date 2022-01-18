@@ -36,18 +36,20 @@ class Contact extends Component {
             </div>
           </div>
         </Fade> */}
-
         <div className="row">
           <Slide left duration={1000}>
-            <div className="seven columns">
-              <div className="cLoggo1">
+            {/* 카카오톡 상담 버튼 */}
+            <div>
+
+            </div>
+
+
+            <div className="columns2 flowleft501">
                 <img
-                  className="sizeImage"
                   src = {loggo22}
                   alt="실패"
                 />
-              </div>
-              </div>
+            </div>
           </Slide>              
               {/* <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -115,7 +117,7 @@ class Contact extends Component {
 
 
           <Slide right duration={1000}>
-            <aside className="five columns footer-widgets">
+            <aside className="five columns footer-widgets flowleft50">
               <div className="widget widget_contact">
                 <h3>엔에프팅 주식회사 NFTing Inc.</h3>
                 <h4>Address and Info</h4>

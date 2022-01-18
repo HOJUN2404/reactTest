@@ -58,13 +58,261 @@ class Resume extends Component {
       <section id="resume">
         <Slide left duration={1300}>
           <div className="row education">
-            <div className="three columns header-col">
-              <h1>
-                <span>Monday</span>
+            <div>
+              <h1 className="h1center">
+                <p>라이브트리 방송일정</p>
               </h1>
             </div>
 
-            <div className="nine columns main-col">
+            <div className="three columns header-col">
+              
+              <h1>
+                <span>Monday</span>
+              </h1>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                  <br/>
+                  <span>PM 17:00 - 18:00</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+              
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                  <br/>
+                  <span>17:00 - 18:00</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>17:00 - 18:00</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+            </div>
+
+            <div className="three columns header-col">
+              <h1>
+                <span>Tuesday</span>
+              </h1>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+            </div>
+
+            <div className="three columns header-col">
+              <h1>
+                <span>Wendsday</span>
+              </h1>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+            </div>
+
+            <div className="three columns header-col">
+              <h1>
+                <span>Thursday</span>
+              </h1>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+            </div>
+
+            <div className="three columns header-col">
+              <h1>
+                <span>Friday</span>
+              </h1>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+              <div className="boxdetail">
+                {/* 방송제목 */}
+                <h4>
+                  <sapn>아키클래식</sapn>
+                </h4>
+                {/* 방송날짜 */}
+                <h6>
+                  <span>2022. 01. 15</span>
+                </h6>
+                {/* 방송 설명 */}
+                {/* <p>
+                  아키클래식 방송 
+                </p> */}
+              </div>
+
+
+            </div>
+            </div>
+        </Slide>
+            {/* <div className="nine columns main-col">
               <div className="row item">
                 <div className="twelve columns">
                   <div>
@@ -77,13 +325,12 @@ class Resume extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </Slide>
+            </div> */}
+          
 
 
 
-        <Slide left duration={1300}>
+        {/* <Slide left duration={1300}>
           <div className="row education">
             <div className="three columns header-col">
               <h1>
@@ -127,7 +374,7 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-        </Slide>
+        </Slide> */}
       </section>
     );
   }

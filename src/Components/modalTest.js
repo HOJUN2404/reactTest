@@ -1,10 +1,8 @@
 import React, { Component } from "react";
-import { useState } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
-import Modal from "./Modal";
 
-class Header extends Component {
+class modalTest extends Component {
   render() {
     if (!this.props.data) return null;
 
@@ -14,7 +12,7 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
-      <header id="home">
+      <header id="modalTest">
         <ParticlesBg type="circle" bg={true} />
 
         <nav id="nav-wrap">
@@ -40,19 +38,19 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#about">
-                Broadcast
+                About
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Calendar
+                Resume
               </a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="#Contents">
-                More INFO
+              <a className="smoothscroll" href="#portfolio">
+                Works
               </a>
             </li>
 
@@ -76,16 +74,9 @@ class Header extends Component {
                   <p>
                     <a href="https://open.kakao.com/o/s9mSFuQd" className="button1">
                     {/* https://open.kakao.com/o/s9mSFuQd */}
-                      <i className="fa fa-comments"></i>   KaKao Talk
+                      <i className="fa fa-download"></i>   KaKao Talk
                     </a>
                   </p>
-
-                  {/* <p>
-                    <a className="button1">
-                    https://open.kakao.com/o/s9mSFuQd
-                      <i className="fa fa-comment"></i>   팝업 테스트
-                    </a>
-                  </p> */}
             </Fade>
             <hr />
             {/* <Fade bottom duration={2000}>
@@ -111,4 +102,4 @@ class Header extends Component {
   }
 }
 
-export default Header;
+export default modalTest;
