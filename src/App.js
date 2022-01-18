@@ -21,10 +21,10 @@ class App extends Component {
       modalOpen: false
     };
 
-    openModal = () => {
+    const openModal = () => {
       this.setState({ modalOpen: true })
     }
-    closeModal = () => {
+    const closeModal = () => {
       this.setState({ modalOpen: false })
     }
 
@@ -65,6 +65,8 @@ class App extends Component {
         <Contents data={this.state.resumeData.main} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
+        
+        {/* 모달 팝업창 부분.. */}
         <React.Fragment>
             <button onClick={ this.openModal }> 모달팝업</button>
             <Modal open={ this.state.modalOpen } close={ this.closeModal } title="Create a chat room">
