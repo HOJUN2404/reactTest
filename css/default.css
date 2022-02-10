@@ -874,6 +874,10 @@ properly.
    z-index: 99;
    background-color: rgba(0, 0, 0, 0.6);
  }
+ .modal .div {
+   background-color: blue;
+ }
+
  .modal button {
    outline: none;
    cursor: pointer;
