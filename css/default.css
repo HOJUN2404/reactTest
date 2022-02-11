@@ -953,5 +953,92 @@ properly.
  }
 
 
- .hjBtn {display:inline-block;display:inline;background-color: black;} 
+ .hjBtn {  
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   display:inline-block;
+   background-color: black;
+   margin: 0;
+   padding: 0.5rem 1rem;
+ 
+   font-family: "Noto Sans KR", sans-serif;
+   font-size: 1rem;
+   font-weight: 400;
+   text-align: center;
+   text-decoration: none;
+ 
+   display: inline-block;
+   width: auto;
+ 
+   border: none;
+   border-radius: 4px;
+   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+   cursor: pointer;
+ 
+   transition: 0.5s;
+ }
+
  .hjBtn:after {display: inline-block;content: "\00d7"; font-size:15pt;}
+
+ .closeBtn {
+   /* background-color: 'rgba(255, 255, 255, 0.75)'; */
+   background-color: rgba(173, 173, 173, 0.75); 
+   color: black;
+   border: none;
+   /* border: 1px solid black; */
+   /* color: white; */
+   padding: 8px 18px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 8px;
+   border-radius: 6px;
+}
+
+.closeBtn:hover{
+
+}
+
+.closeText {
+   color: black;
+   font: bold;
+   font-weight: 900;
+   /* font-size: large; */
+}
+
+
+/* CSS */
+.closeBtn1 {
+  background-color: rgb(173, 173, 173);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  /* color: black; */
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  height: 32px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 2px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.closeBtn1:hover,
+.closeBtn1:focus {
+  background-color: rgba(141, 141, 141);
+}
