@@ -212,7 +212,7 @@ ul#nav li.current a { color: #fe6928; }
 
 #contact .flowleft501 {
    float: left;
-   height: 288px;
+   height: 2828px;
 
 }
 
@@ -309,7 +309,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: black;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
