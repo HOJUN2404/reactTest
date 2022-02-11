@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
-import YouTube from 'react-youtube';
+
 
 class About extends Component {
   render() {
@@ -31,7 +31,7 @@ class About extends Component {
     return (
       <section id="about">
         <div>
-          <h3>라이브트리 방송예고</h3>
+          <h3>AwesomeLive 방송예고</h3>
         </div>
           <div className="divtest">
             <iframe src="https://view.shoppinglive.naver.com/replays/361129" />

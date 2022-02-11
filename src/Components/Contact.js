@@ -44,10 +44,12 @@ class Contact extends Component {
             </div>
 
 
-            <div className="columns2 flowleft501">
+            <div className="columns2 flowleft501"
+            style={{height:"150px"}}>
                 <img
                   src = {loggo22}
                   alt="실패"
+                  style={{}}
                 />
             </div>
           </Slide>              

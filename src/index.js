@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import Test from './Components/modalTest.js'
 import Modal from './Components/Modal'
-import reportWebVitals from './reportWebVitals';
+import ReportWebVitals from './reportWebVitals';
+import ReactDom from 'react-dom';
+
 
 ReactDOM.render(
   <App />,
@@ -12,9 +14,15 @@ ReactDOM.render(
   
 );
 
+
+
 // window.onload = function (){
-//   alert("테스트");
-//   <Modal/>
+//   // console.log(document.getElementById('boot'))
+//   // console.log(document.getElementById('root'))
+//   ReactDOM.render(
+//   <App />,
+//   document.getElementById('Boot')
+//   );
 // }
 
 
@@ -27,4 +35,4 @@ ReactDOM.render(
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReportWebVitals();

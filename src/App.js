@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { useState } from "react";
 import ReactGA from "react-ga";
 import $ from "jquery";
 import "./App.css";
@@ -10,29 +11,56 @@ import Contact from "./Components/Contact";
 import Contents from "./Components/Contents";
 import Portfolio from "./Components/Portfolio";
 import Test from "./Components/Test";
-import Modal from "./Components/Modal";
+import Modal3 from "./Components/Modal";
+import Media from "./Components/Media";
+import { BrowserRouter,Route, Link,Switch } from "react-router-dom";
+import Modal from 'react-modal';
+
+
+class Main extends Component {
+  constructor(props){
+      super(props);
+
+      this.state = {
+          isOpenPopup: true,
+      }
+
+      this.openPopup = this.openPopup.bind(this);
+      this.closePopup = this.closePopup.bind(this);
+  }
+
+  openPopup(){
+      this.setState({
+          isOpen: true,
+      })
+  }
+
+  closePopup(){
+      this.setState({
+          isOpen: false,
+      })
+  }
+
+}
 
 class App extends Component {
+  
   constructor(props) {
     super(props);
     this.state = {
       foo: "bar",
       resumeData: {},
-      modalOpen: false
+      modalOpen: false,
+      isOpen:false
     };
-
-    const openModal = () => {
+    
+    function openModal() {
       this.setState({ modalOpen: true })
-    }
-    const closeModal = () => {
-      this.setState({ modalOpen: false })
     }
 
     ReactGA.initialize("UA-110570651-1");
     ReactGA.pageview(window.location.pathname);
   }
-
-
 
   getResumeData() {
     $.ajax({
@@ -52,12 +80,14 @@ class App extends Component {
   componentDidMount() {
     this.getResumeData();
   }
-  // test2
 
   render() {
+
     return (
       <div className="App">
+        <Modal3 />
         <Header data={this.state.resumeData.main} />
+        {/* <Media /> */}
         <Test data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
@@ -65,20 +95,10 @@ class App extends Component {
         <Contents data={this.state.resumeData.main} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
-        
-        {/* 모달 팝업창 부분.. */}
-        <React.Fragment>
-            <button onClick={ this.openModal }> 모달팝업</button>
-            <Modal open={ this.state.modalOpen } close={ this.closeModal } title="Create a chat room">
-                // Modal.js <main> { this.props.children } </main>에 내용이 입력된다.
-                리액트 클래스형 모달 팝업창입니다.
-                쉽게 만들 수 있어요.
-                같이 만들어봐요!
-            </Modal>
-        </React.Fragment>
       </div>
     );
   }
 }
+
 
 export default App;

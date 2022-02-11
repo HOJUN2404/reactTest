@@ -60,7 +60,7 @@ class Resume extends Component {
           <div className="row education">
             <div>
               <h1 className="h1center">
-                <p>라이브트리 방송일정</p>
+                <p>AwesomeLive 방송일정</p>
               </h1>
             </div>
 
