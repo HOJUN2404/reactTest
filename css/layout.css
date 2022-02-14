@@ -302,6 +302,30 @@ ul#nav li.current a { color: #fe6928; }
 
 
 
+/* ------------------------------------------------------------------ */
+/* c-0. Academy Section [김호준]
+/* ------------------------------------------------------------------ */
+#Academy {
+   background-color: white;
+   padding-left: 12%;
+   padding-right: 12%;
+}
+
+#Academy .blank {
+   height: 60px;
+}
+
+#Academy .allImage {
+   /* width: 1px; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#Academy .sizeImage {
+   width: 100%;
+}
+
 
 
 /* ------------------------------------------------------------------ */
