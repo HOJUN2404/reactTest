@@ -1,10 +1,65 @@
 import React, { Component } from "react";
+import { useState } from "react";
 import { Fade, Slide } from "react-reveal";
+import { useMediaQuery } from 'react-responsive'
+
+// const Contact = () => {
+
+//     // if (!this.props.data) return null;
+//     const isPhone = useMediaQuery({ maxWidth:600 });
+//     const isDesktop = useMediaQuery({ minWidth:601 });
+
+//     const aweLoggoJpg3 = "/images/aweLoggo3.jpg"
+
+//     return (
+//       <section id="contact">
+//         <div className="row">
+//           <Slide left duration={1000}>
+
+//             {isPhone && 
+//               <div className="columns2 flowleft501"
+//               style={{height:"100%", width:"80%", marginLeft:"5%", marginRight:"5%"}}>
+//                   <img
+//                     src = {aweLoggoJpg3}
+//                     alt="실패"
+//                     style={{width:"100%", height:"100%"}}
+//                   />
+//               </div>
+//             },
+//             {isDesktop &&
+//               <div className="columns2 flowleft501"
+//               style={{height:"100%", width:"80%", marginLeft:"5%", marginRight:"5%"}}>
+//                   <img
+//                     src = {aweLoggoJpg3}
+//                     alt="실패"
+//                     style={{width:"100%", height:"100%"}}
+//                   />
+//               </div>
+//             }
+//           </Slide>              
+//           <Slide right duration={1000}>
+//             <aside className="five columns footer-widgets flowleft50">
+//               <div className="widget widget_contact">
+//                 <h3>엔에프팅 주식회사 NFTing Inc.</h3>
+//                 <h4>Address and Info</h4>
+//                 <p className="address">
+//                   <span>대표이사 : 전병욱</span><br/>
+//                   <span>주소 : 경기도 부천시 소향로 131, 7층</span><br/>
+//                   <span>통신판매업신고 : 2021 경기부천 1948</span><br/>
+//                   <span>EMAIL : admin@nfting.co.kr</span><br/>
+//                   <span>사업자 번호 : 698 86 02279</span><br/>
+//                 </p>
+//               </div>
+//             </aside>
+//           </Slide>
+//         </div>
+//       </section>
+//     );
+// }
 
 class Contact extends Component {
   render() {
     if (!this.props.data) return null;
-
     const name = this.props.data.name;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -13,13 +68,13 @@ class Contact extends Component {
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
 
-    const loggo1 = "images/" + this.props.data.loggo1;
-    const loggo11 = "images/" + this.props.data.loggo11;
-    const loggo2 = "images/" + this.props.data.loggo2;
-    const loggo22 = "images/" + this.props.data.loggo22;
-    const loggo3 = "images/" + this.props.data.loggo3;
-    const loggo4 = "images/" + this.props.data.loggo4;
-    const loggo5 = "images/" + this.props.data.loggo5;
+    const aweLoggoJpg = "images/" + this.props.data.aweLoggoJpg;
+    const aweLoggoJpg2 = "images/" + this.props.data.aweLoggoJpg2;
+    const aweLoggoJpg3 = "images/" + this.props.data.aweLoggoJpg3;
+    const aweLoggoJpg4 = "images/" + this.props.data.aweLoggoJpg4;
+    const aweLoggoPng = "images/" + this.props.data.aweLoggoPng;
+    const aweIconJpg = "images/" + this.props.data.aweIconJpg;
+    const aweIconPng = "images/" + this.props.data.aweIconPng;
 
     return (
       <section id="contact">
@@ -45,11 +100,11 @@ class Contact extends Component {
 
 
             <div className="columns2 flowleft501"
-            style={{height:"150px"}}>
+            style={{height:"100%",marginTop:"3%", marginLeft:"5%", marginRight:"5%"}}>
                 <img
-                  src = {loggo22}
+                  src = {aweLoggoJpg4}
                   alt="실패"
-                  style={{}}
+                  style={{width:"100%"}}
                 />
             </div>
           </Slide>              

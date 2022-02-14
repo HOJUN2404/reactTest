@@ -10,6 +10,7 @@ import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Contents from "./Components/Contents";
 import Portfolio from "./Components/Portfolio";
+import Academy from "./Components/Academy";
 import Test from "./Components/Test";
 import Modal3 from "./Components/Modal";
 import Media from "./Components/Media";
@@ -85,16 +86,21 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Modal3 />
+        
         <Header data={this.state.resumeData.main} />
-        {/* <Media /> */}
-        <Test data={this.state.resumeData.main} />
+        <Academy data={this.state.resumeData.main} />
+
         <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
         {/* <Portfolio data={this.state.resumeData.portfolio} /> */}
+        <Resume data={this.state.resumeData.resume} />
+        <Test data={this.state.resumeData.main} />
+        
+        
+        
         <Contents data={this.state.resumeData.main} />
         <Contact data={this.state.resumeData.main} />
         <Footer data={this.state.resumeData.main} />
+        <Modal3 />
       </div>
     );
   }

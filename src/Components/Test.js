@@ -9,6 +9,9 @@ class Test extends Component {
     const profilepic = "images/" + this.props.data.image;
     const testImage = "images/" + this.props.data.testImage;
     const detail1 = "images/" + this.props.data.detail1;
+    const studioDetail1 = "images/awesome/" + this.props.data.studioDetail1;
+    const studioDetail2 = "images/awesome/" + this.props.data.studioDetail2;
+    const studio2 = "images/awesome/" + this.props.data.studio2;
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -20,57 +23,17 @@ class Test extends Component {
 
     return (
       <section id="Test">
-        <Fade duration={1000}>
+        {/* <Fade duration={1000}> */}
             <div className="blank">
                 {/* 공백 */}
             </div>
             <div className="allImgae">
                 <img
                     className="sizeImage"
-                    src = {detail1}
+                    src = {studio2}
                 />
             </div>
-
-          {/* <div className="row">
-            <div className="three columns">
-              <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Nordic Giant Profile Pic"
-              />
-            </div>
-            <div className="nine columns main-col">
-              <h2>About Me</h2>
-
-              <p>{bio}</p>
-              <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>{name}</span>
-                    <br />
-                    <span>
-                      {street}
-                      <br />
-                      {city} {state}, {zip}
-                    </span>
-                    <br />
-                    <span>{phone}</span>
-                    <br />
-                    <span>{email}</span>
-                  </p>
-                </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
-        </Fade>
+        {/* </Fade> */}
       </section>
     );
   }

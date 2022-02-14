@@ -212,7 +212,7 @@ ul#nav li.current a { color: #fe6928; }
 
 #contact .flowleft501 {
    float: left;
-   height: 288px;
+   height: 2828px;
 
 }
 
@@ -302,6 +302,30 @@ ul#nav li.current a { color: #fe6928; }
 
 
 
+/* ------------------------------------------------------------------ */
+/* c-0. Academy Section [김호준]
+/* ------------------------------------------------------------------ */
+#Academy {
+   background-color: white;
+   padding-left: 12%;
+   padding-right: 12%;
+}
+
+#Academy .blank {
+   height: 60px;
+}
+
+#Academy .allImage {
+   /* width: 1px; */
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#Academy .sizeImage {
+   width: 100%;
+}
+
 
 
 /* ------------------------------------------------------------------ */
@@ -309,7 +333,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: black;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;

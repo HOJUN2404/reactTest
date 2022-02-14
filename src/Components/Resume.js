@@ -63,7 +63,6 @@ class Resume extends Component {
                 <p>AwesomeLive 방송일정</p>
               </h1>
             </div>
-
             <div className="three columns header-col">
               
               <h1>
@@ -73,50 +72,14 @@ class Resume extends Component {
               <div className="boxdetail">
                 {/* 방송제목 */}
                 <h4>
-                  <sapn>아키클래식</sapn>
+                  <sapn>워터프로</sapn>
                 </h4>
                 {/* 방송날짜 */}
                 <h6>
-                  <span>2022. 01. 15</span>
+                  <span>2022. 02. 14</span>
                   <br/>
-                  <span>PM 17:00 - 18:00</span>
+                  <span>PM 18:30 - 19:30</span>
                 </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
-              
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                  <br/>
-                  <span>17:00 - 18:00</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
-
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>17:00 - 18:00</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
               </div>
             </div>
 
@@ -124,36 +87,25 @@ class Resume extends Component {
               <h1>
                 <span>Tuesday</span>
               </h1>
-
+              
               <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
+                <h4><sapn>아임핏</sapn></h4>
                 <h6>
-                  <span>2022. 01. 15</span>
+                  <span>2022. 02. 15</span>
+                  <br/>
+                  <span>PM 18:00 - 19:00</span>
                 </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
               </div>
 
               <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
+                <h4><sapn>비타샵</sapn></h4>
                 <h6>
-                  <span>2022. 01. 15</span>
+                  <span>2022. 02. 15</span>
+                  <br/>
+                  <span>PM 20:00 - 21:00</span>
                 </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
               </div>
+
             </div>
 
             <div className="three columns header-col">
@@ -161,100 +113,22 @@ class Resume extends Component {
                 <span>Wendsday</span>
               </h1>
 
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
 
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
-
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
-
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
             </div>
+
+
 
             <div className="three columns header-col">
               <h1>
                 <span>Thursday</span>
               </h1>
-
               <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
+                <h4><sapn>에어데이즈</sapn></h4>
                 <h6>
-                  <span>2022. 01. 15</span>
+                  <span>2022. 02. 17</span>
+                  <br/>
+                  <span>PM 20:00 - 21:00</span>
                 </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
-
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
               </div>
             </div>
 
@@ -263,49 +137,14 @@ class Resume extends Component {
                 <span>Friday</span>
               </h1>
 
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
 
               <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
+                <h4><sapn>나드리쫄면</sapn></h4>
                 <h6>
-                  <span>2022. 01. 15</span>
+                  <span>2022. 02. 18</span>
+                  <br/>
+                  <span>PM 12:00 - 13:00</span>
                 </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
-              </div>
-
-              <div className="boxdetail">
-                {/* 방송제목 */}
-                <h4>
-                  <sapn>아키클래식</sapn>
-                </h4>
-                {/* 방송날짜 */}
-                <h6>
-                  <span>2022. 01. 15</span>
-                </h6>
-                {/* 방송 설명 */}
-                {/* <p>
-                  아키클래식 방송 
-                </p> */}
               </div>
 
 

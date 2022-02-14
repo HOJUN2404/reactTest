@@ -7,6 +7,8 @@ class Contents extends Component {
 
     const detail2 = "images/" + this.props.data.detail2;
     const detail3 = "images/" + this.props.data.detail3;
+    const academyDetail1 = "images/awesome/" + this.props.data.academyDetail1;
+    const academyDetail2 = "images/awesome/" + this.props.data.academyDetail2;
 
     return (
       <section id="Contents">
@@ -17,12 +19,12 @@ class Contents extends Component {
             <div className="allImgae">
                 <img
                     className="sizeImage"
-                    src = {detail2}
+                    src = {academyDetail1}
                     alt="실패"
                 />
                 <img
                     className="sizeImage"
-                    src = {detail3}
+                    src = {academyDetail2}
                     alt="실패"
                 />
             </div>

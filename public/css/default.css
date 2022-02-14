@@ -1042,3 +1042,27 @@ properly.
 .closeBtn1:focus {
   background-color: rgba(141, 141, 141);
 }
+
+
+.unScroll {
+   /* position: fixed; */
+   width:100%;
+   height: 100%;
+   overflow: hidden;
+}
+
+body{
+   overflow: hidden;
+   /* position:fixed; */
+}
+
+
+
+
+
+
+
+
+
+
+
